@@ -33,23 +33,27 @@ $(function () {
                     .css({
                         "content": "data(id)",
                         "shape": "data(shape)",
-                        "border-width": 1,
-                        "background-color": "#EEE",
-                        "border-color": "#125"
+                        "border-width": 2,
+                        "background-color": "#DDD",
+                        "border-color": "#129",
+                        "opacity": "0.7"
+
                     })
                     .selector("edge")
                     .css({
                         "width": "mapData(weight, 0, 100, 1, 4)",
                         "target-arrow-shape": "triangle",
                         "source-arrow-shape": "circle",
-                        "line-color": "#127"
+                        "line-color": "#444",
+                        "opacity": "0.7"
                     })
                     .selector(":selected")
                     .css({
                         "background-color": "#e99",
                         "line-color": "#e99",
                         "source-arrow-color": "#e99",
-                        "target-arrow-color": "#e99"
+                        "target-arrow-color": "#e99",
+                        "border-color": "#555",
                     })
                     .selector(".ui-cytoscape-edgehandles-source")
                     .css({

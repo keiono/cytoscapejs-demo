@@ -96,10 +96,10 @@ body {
 }
 
 #network-view {
-    color: lightblue;
+    color: darkgray;
     font-weight: 100;
     float: left;
-    width: 80em;
+    width: 98%;
 }
 
 #demo-source {
